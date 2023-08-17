@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mancini Perfumes Importados</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="/assets/mediaquieries.css">
+</head>
+<body>
+    <header> 
+        <img src="/assets/img/logoint.png" alt="logoint" class="logo-h">
+
+        <nav class="navbar">
+            <label for="menu-toggle" class="menu-label">
+                <img src="./assets/img/menuhamburguesa.png" alt="menu" class="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle">
+            <ul class="navbar-list">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="#products">Perfumes</a></li>
+                <li><a href="#contactanos-section">Contactanos</a></li>
+                <li><a href="./inicio-de-sesion.html">Inicia sesion</a></li>
+            </ul>
+
+            <label for="cart-toggle" class="cart-label">
+                <div class="cart-icon"><img src="./assets/img/carrito-removebg-preview.png" alt="carrito de compras"></div>
+            </label>
+            <input type="checkbox" id="cart-toggle">
+            <div class="cart" id="cartBox">                
+                <h2>Tus perfumes!</h2>
+                <span class="end-cart-list"></span>
+                <div class="total-cart">
+                    <p>Total:$</p>
+                    <span>0</span>
+                </div>
+                <button class="btn-buy">Comprar</button>
+                <button class="cartDlt">Vaciar</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-text">
+                <h1>Nuevo lanzamiento de Yves Saint Laurent</h1>
+                <p>Animate a probar el nuevo lanzamiento de Yves Saint Laurent Y Eau de Parfum, un perfume versatil, perfecto para cualquier edad y clima!</p>
+                <a href="#y-edp">Conocelo</a>
+            </div>
+            <div class="hero-card"><img src="./assets/img/hero-y-edp.jpg" alt="Y edp hero" class="Y-hero"></div>
+        </section>
+
+        <section id="products">
+            <div class="titles"><h2 class="title-product">Todos los perfumes</h2></div>
+            <div class="sortBy">
+                <button id="filterA">A - Z</button>
+                <button id="filterZ">Z - A</button>
+                <button id="filterP">Mayor a menor precio</button>
+                <button id="filterPMinus">Menor a mayor precio</button>
+            </div>
+            <div class="perfumes">
+            </div>
+        </section>
+
+        <section id="about-us">
+            <h2 class="about-us-title">Acerca de nosotros</h2>
+            <p class="about-us-text">Mancini Perfumes Importados es una perfumeria para todos aquellos que quieran oler increíble, llamar la atención y que su presencia tenga más impacto aún.
+                Por eso, nos preocupamos en brindarte un abanico de opciones, de gran calidad y performance, por lo que podras elegir la que mas te guste y se ajuste a tu estilo.
+                Tenemos para todos los climas, edades y gustos!.</p>
+        </section>
+
+        <section id="contactanos-section">
+            <h2 class="contacto-title">Ante cualquier duda podes consultarnos en nuestras redes sociales:</h2>
+            <div class="redes">    
+                <div class="instagram">   
+                    <img src="./assets/img/logos-redes/3955024.png" alt="logoig" class="logo-insta">
+                    <p class="texto-insta">@mancini_perfumes</p>
+                </div>
+                <div class="whatsapp">
+                    <img src="./assets/img/logos-redes/whatsapp.png" alt="logowpp" class="logo-whatsapp">
+                    <p class="texto-whatsapp">+54 9 11 3879-1992</p>
+                </div>
+                <div class="localizacion">
+                    <img src="./assets/img/logos-redes/1001022.png" alt="" class="location">
+                    <p class="direccion">Estamos ubicados en Avenida Libertador 2799, Palermo</p>
+                </div>
+                <div class="horarios">
+                    <img src="./assets/img/logos-redes/2802888.png" alt="" class="horaydia">
+                    <p>De Lunes a Viernes de 9am a 17pm y Sabados de 9am a 13pm</p>
+                </div>
+            </div>
+        </section>
+        <footer><p>Soporte: mancini_perfumes@gmail.com</p></footer>
+        <div class="product-confirm"></div>
+    </main>
+    <script src="./assets/data.js"></script>
+    <script src="./index.js"></script>  
+</body>
+</html>

@@ -1,0 +1,2080 @@
+@media (max-width:1440px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .navbar,.navbar-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .cart{
+    position: absolute;
+    top: 65px;
+    right: 0;
+    padding: 50px 5px;
+    background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);
+    background: linear-gradient(to bottom, #3A6073, #16222A);
+    border: 3px solid aqua;
+    border-top: 0px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    z-index: 2;
+    overflow-y: scroll;
+    display: none;
+    max-height: 500px;   
+}
+
+.cart-item{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: unset;
+    gap: 10px;
+    border: 3px solid aquamarine;
+    border-radius: 0.5rem;
+    padding: 5px;
+    width: 380px;
+}
+
+.item-info{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100px;
+    text-align: start;
+    padding-right: 150px;
+}
+
+.cart-item h2{
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.cart-item h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cart-item img{
+    width: 75px;
+}
+
+
+
+}
+
+@media (max-width:1299px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .navbar,.navbar-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .perfumes{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+    }
+
+    .le-beau{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 300px;
+        height: 410px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .azzaro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 300px;
+        height: 410px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .spicebomb{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 300px;
+        height: 410px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .ch{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 300px;
+        height: 410px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    #y-edp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 300px;
+        height: 410px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .hugo-boss{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 300px;
+        height: 410px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .redes{
+        display: grid;
+        grid-template-columns: 240px 240px 260px 260px;
+    }
+
+    .instagram{
+        width: 240px;
+    }
+
+    .whatsapp{
+        width: 240px;
+    }
+
+    .localizacion{
+        width: 240px;
+    }
+
+    .horarios{
+        width:240px;
+    }
+}
+
+@media (max-width:1024px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .navbar,.navbar-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .redes{
+        display: grid;
+        grid-template-columns: 220px 220px 240px 240px;
+    }
+
+    .instagram{
+        width: 220px;
+    }
+
+    .whatsapp{
+        width: 220px;
+    }
+
+    .localizacion{
+        width: 220px;
+    }
+
+    .horarios{
+        width:220px;
+    }
+}
+
+@media (max-width:999px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .navbar,.navbar-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .perfumes{
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+    }
+
+    .le-beau{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 380px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .azzaro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 380px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .spicebomb{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 380px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .ch{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 380px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    #y-edp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 380px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .hugo-boss{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 380px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .redes{
+        display: grid;
+        grid-template-columns: 180px 180px 200px 200px;
+    }
+
+    .instagram{
+        width: 180px;
+    }
+
+    .whatsapp{
+        width: 180px;
+    }
+
+    .localizacion{
+        width: 200px;
+    }
+
+    .horarios{
+        width:200px;
+    }
+}
+
+@media (max-width:860px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: 'Josefin Sans', sans-serif;
+        flex-wrap: wrap;
+    }
+
+    .navbar,.navbar-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .cart{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .cart-item{
+        width: 384px;
+    }
+
+    .cart-item h2{
+        font-size: 15px;
+    }
+
+    .cart-item{
+        font-size: 13px;
+    }
+
+    .perfumes{
+        display: flex;
+    }
+
+    .le-beau{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 400px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .azzaro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 400px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .spicebomb{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 400px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .ch{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 400px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    #y-edp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 400px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .hugo-boss{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+       width: 250px;
+        height: 400px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .redes{
+        display: grid;
+        gap: 15px;
+        grid-template-columns: 170px 160px 160px 160px;
+    }
+
+    .instagram{
+        width: 160px;
+    }
+
+    .instagram p{
+        font-size: large;
+    }
+
+    .whatsapp{
+        width: 160px;
+    }
+
+    .whatsapp p{
+        font-size: large;
+    }
+
+    .localizacion{
+        width: 160px;
+    }
+
+    .localizacion p{
+        font-size: large;
+    }
+
+    .horarios{
+        width: 160px;
+    }
+
+    .horarios p{
+        font-size: large;
+    }
+}
+
+@media (max-width:737px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: 'Josefin Sans', sans-serif;
+        flex-wrap: wrap;
+    }
+
+    .navbar,.navbar-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .hero-text h1{
+        font-size: 40px;
+        width: 35%;
+        min-width: 400px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .perfumes{
+        display: grid;
+        grid-template-columns: 250px 250px;
+    }
+
+    .le-beau{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 400px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .azzaro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 400px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .spicebomb{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 400px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .ch{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 400px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    #y-edp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 400px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .hugo-boss{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid aqua;
+        border-radius: 0.5rem;
+       width: 250px;
+        height: 400px;
+        padding: 20px;
+        gap: 15px;
+        background-color: #16222A;
+        transition: transform 0.6s;
+        cursor: pointer;
+    }
+
+    .redes{
+        display: grid;
+        gap: 25px;
+        grid-template-columns: 140px 140px;
+    }
+
+    .instagram{
+        width: 140px;
+    }
+
+    .instagram p{
+        font-size: medium;
+    }
+
+    .whatsapp{
+        width: 140px;
+    }
+
+    .whatsapp p{
+        font-size: medium;
+    }
+
+    .localizacion{
+        width: 140px;
+    }
+
+    .localizacion p{
+        font-size: medium;
+    }
+
+    .horarios{
+        width: 140px;
+    }
+
+    .horarios p{
+        font-size: medium;
+    }
+}
+
+@media (max-width:594px){
+    .navbar-list{
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background: #16222A;
+        background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);
+        background: linear-gradient(to bottom, #3A6073, #16222A);
+        border: 3px solid aqua;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        text-align: center;
+        border-top: 0px;
+        gap: 15px;
+        z-index: 2;
+        padding: 45px 30px ;
+        display: none;
+    }
+
+    .menu-label{
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: flex-end;
+        top: 0;
+    }
+
+    .menu-icon{
+        margin: 0;
+        width: 40px;
+    }
+
+    #menu-toggle:checked + .navbar-list{
+        display: flex;
+    }
+}
+
+@media (max-width:581px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: 'Josefin Sans', sans-serif;
+        flex-wrap: wrap;
+    }
+
+    .navbar{
+        flex-wrap: wrap;
+
+    }
+
+    .navbar-list{
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background: #16222A;
+        background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);
+        background: linear-gradient(to bottom, #3A6073, #16222A);
+        border: 3px solid aqua;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        text-align: center;
+        border-top: 0px;
+        gap: 15px;
+        z-index: 2;
+        padding: 45px 30px ;
+        display: none;
+    }
+
+    .menu-label{
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: flex-end;
+        top: 0;
+    }
+
+    .menu-icon{
+        margin: 0;
+        width: 40px;
+    }
+
+    #menu-toggle:checked + .navbar-list{
+        display: flex;
+    }
+
+    .sortBy{
+        gap: 5px;
+    }
+
+}
+
+    @media (max-width:545px){
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style-type: none;
+            font-family: 'Josefin Sans', sans-serif;
+            flex-wrap: wrap;
+        }
+
+        .navbar{
+            flex-wrap: wrap;
+
+        }
+
+        .navbar-list{
+            position: absolute;
+            top: 65px;
+            left: 5%;
+            right: 5%;
+            width: 90%;
+            flex-direction: column;
+            background: #16222A;
+            background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);
+            background: linear-gradient(to bottom, #3A6073, #16222A);
+            border: 3px solid aqua;
+            border-bottom-left-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+            text-align: center;
+            border-top: 0px;
+            gap: 15px;
+            z-index: 2;
+            padding: 45px 30px ;
+            display: none;
+        }
+
+        .menu-label{
+            display: flex;
+            cursor: pointer;
+            align-items: center;
+            justify-content: flex-end;
+            top: 0;
+        }
+
+        .menu-icon{
+            margin: 0;
+            width: 40px;
+        }
+
+        #menu-toggle:checked + .navbar-list{
+            display: flex;
+        }
+
+        .sortBy{
+            display: grid;
+            grid-template-columns: 200px 200px;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        #filterA,#filterZ{
+            width: 195px;
+        }
+
+        .perfumes{
+            display: grid;
+            grid-template-columns: 220px 228px;
+        }
+
+        .le-beau{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 230px;
+            height: 380px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .azzaro{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 230px;
+            height: 380px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .spicebomb{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 230px;
+            height: 380px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .ch{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 230px;
+            height: 380px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        #y-edp{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 230px;
+            height: 380px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .hugo-boss{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+           width: 250px;
+            width: 230px;
+            height: 380px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+    }
+
+    @media (max-width:499px){
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style-type: none;
+            font-family: 'Josefin Sans', sans-serif;
+            flex-wrap: wrap;
+        }
+
+        .navbar{
+            flex-wrap: wrap;
+
+        }
+
+        .navbar-list{
+            position: absolute;
+            top: 65px;
+            left: 5%;
+            right: 5%;
+            width: 90%;
+            flex-direction: column;
+            background: #16222A;
+            background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);
+            background: linear-gradient(to bottom, #3A6073, #16222A);
+            border: 3px solid aqua;
+            border-bottom-left-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+            text-align: center;
+            border-top: 0px;
+            gap: 15px;
+            z-index: 2;
+            padding: 45px 30px ;
+            display: none;
+        }
+
+        .menu-label{
+            display: flex;
+            cursor: pointer;
+            align-items: center;
+            justify-content: flex-end;
+            top: 0px;
+        }
+
+        .menu-icon{
+            margin: 0;
+            width: 40px;
+        }
+
+        #menu-toggle:checked + .navbar-list{
+            display: flex;
+        }
+
+        .perfumes{
+            display: grid;
+            grid-template-columns: 200px 200px;
+        }
+
+        .le-beau{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 200px;
+            height: 350px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .le-beau h2, .le-beau a, .le-beau p{
+            font-size:21px;
+        }
+
+        .azzaro{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 200px;
+            height: 350px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .azzaro h2, .azzaro a, .azzaro p{
+            font-size: 21px;
+        }
+
+        .spicebomb{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 200px;
+            height: 350px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .spicebomb h2, .spicebomb a, .spicebomb p{
+            font-size: 21px;
+        }
+
+        .ch{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 200px;
+            height: 350px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .ch h2, .ch a, .ch p{
+            font-size: 21px;
+        }
+
+        #y-edp{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 200px;
+            height: 350px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        #y-edp h2, #y-edp a, #y-edp p{
+            font-size: 21px;
+        }
+
+        .hugo-boss{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 200px;
+            height: 350px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .hugo-boss h2, .hugo-boss a, .hugo-boss p{
+            font-size: 21px;
+        }
+    }
+
+    @media (max-width:450px){
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style-type: none;
+            font-family: 'Josefin Sans', sans-serif;
+            flex-wrap: wrap;
+        }
+
+        .navbar{
+            flex-wrap: wrap;
+
+        }
+
+        .navbar-list{
+            position: absolute;
+            top: 65px;
+            left: 5%;
+            right: 5%;
+            width: 90%;
+            flex-direction: column;
+            background: #16222A;
+            background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);
+            background: linear-gradient(to bottom, #3A6073, #16222A);
+            border: 3px solid aqua;
+            border-bottom-left-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+            text-align: center;
+            border-top: 0px;
+            gap: 15px;
+            z-index: 2;
+            padding: 45px 30px ;
+            display: none;
+        }
+
+        .menu-label{
+            display: flex;
+            cursor: pointer;
+            align-items: center;
+            justify-content: flex-end;
+            top: 0px;
+        }
+
+        .menu-icon{
+            margin: 0;
+            width: 40px;
+        }
+
+        #menu-toggle:checked + .navbar-list{
+            display: flex;
+        }
+
+        .perfumes{
+            display: grid;
+            grid-template-columns: 200px 200px;
+            gap: 10px;
+        }
+
+    }
+
+    @media (max-width:425px){
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style-type: none;
+            font-family: 'Josefin Sans', sans-serif;
+            flex-wrap: wrap;
+        }
+
+        .navbar{
+            flex-wrap: wrap;
+
+        }
+
+        .navbar-list{
+            position: absolute;
+            top: 65px;
+            left: 5%;
+            right: 5%;
+            width: 90%;
+            flex-direction: column;
+            background: #16222A;
+            background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);
+            background: linear-gradient(to bottom, #3A6073, #16222A);
+            border: 3px solid aqua;
+            border-bottom-left-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+            text-align: center;
+            border-top: 0px;
+            gap: 15px;
+            z-index: 2;
+            padding: 45px 30px ;
+            display: none;
+        }
+
+        .menu-label{
+            display: flex;
+            cursor: pointer;
+            align-items: center;
+            justify-content: flex-end;
+            top: 0;
+        }
+
+        .menu-icon{
+            margin: 0;
+            width: 40px;
+        }
+
+        #menu-toggle:checked + .navbar-list{
+            display: flex;
+        }
+
+        .sortBy{
+            grid-template-columns: 150px 150px;
+            gap: 10px;
+        }
+        
+        #filterA,#filterZ,#filterP,#filterPMinus{
+            font-size: 13px;
+            width: 150px;
+        }
+        
+
+        #hero{
+            display: flex;
+            flex-direction: column;
+            padding:10px;
+        }
+
+        .hero-text{
+            gap: 40px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .hero-text p{
+            display: none;
+        }
+
+        .hero-text h1{
+            font-size: 40px;
+            width: 100%;
+            min-width: 100px;
+            font-weight: 800;
+            color: white;
+            padding: 0%;
+            text-align: center;
+        }
+
+        #hero img{
+            display: none;
+        }
+
+        .titles{
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .perfumes{
+            display: grid;
+            grid-template-columns: 180px 180px;
+            gap: 10px;
+
+        }
+
+        .le-beau{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 180px;
+            height: 355px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .le-beau img{
+            width:130px;
+        }
+
+        .le-beau h2, .le-beau a, .le-beau p{
+            font-size:19px;
+        }
+
+        .azzaro{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 180px;
+            height: 355px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .azzaro img{
+            width: 130px;
+        }
+
+        .azzaro h2, .azzaro a, .azzaro p{
+            font-size: 19px;
+        }
+
+        .spicebomb{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 180px;
+            height: 355px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .spicebomb img{
+            width: 130px;
+        }
+
+        .spicebomb h2, .spicebomb a, .spicebomb p{
+            font-size: 19px;
+        }
+
+        .ch{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 180px;
+            height: 355px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .ch img{
+            width: 130px;
+        }
+
+        .ch h2, .ch a, .ch p{
+            font-size: 19px;
+        }
+
+        #y-edp{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 180px;
+            height: 355px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        #y-edp h2, #y-edp a, #y-edp p{
+            font-size: 19px;
+        }
+
+        #y-edp img{
+            width: 130px;
+        }
+
+        .hugo-boss{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 180px;
+            height: 355px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .hugo-boss img{
+            width: 130px;
+        }
+
+        .hugo-boss h2, .hugo-boss a, .hugo-boss p{
+            font-size: 19px;
+        }
+
+        .contacto-title{
+            font-size: 30px;
+            text-align: center
+        }
+
+        .redes{
+            display: grid;
+            gap: 25px;
+            grid-template-columns: 140px 140px;
+
+        }
+
+        .instagram{
+            width: 140px;
+        }
+
+        .instagram p{
+            font-size: medium;
+        }
+
+        .whatsapp{
+            width: 140px;
+        }
+
+        .whatsapp p{
+            font-size: medium;
+        }
+
+        .localizacion{
+            width: 140px;
+        }
+
+        .localizacion p{
+            font-size: medium;
+        }
+
+        .horarios{
+            width: 140px;
+        }
+
+        .horarios p{
+            font-size: medium;
+        }
+
+        .formulario{
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            height: 60%;
+            background:#16222A;
+            border: solid 3px aqua;
+            border-radius: 0.5rem;
+            color: white;
+        }
+
+    }
+
+    @media (max-width: 404px){
+        .cart{
+            width: 260px;
+        }
+        
+        
+        .cart-item img{
+            width: 150px;
+        }
+
+        .cart-item{
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            text-align: center;
+        }
+    }
+
+    @media (max-width:385px){
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style-type: none;
+            font-family: 'Josefin Sans', sans-serif;
+            flex-wrap: wrap;
+        }
+
+        .navbar{
+            flex-wrap: wrap;
+
+        }
+
+        .navbar-list{
+            position: absolute;
+            top: 65px;
+            left: 5%;
+            right: 5%;
+            width: 90%;
+            flex-direction: column;
+            background: #16222A;
+            background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);
+            background: linear-gradient(to bottom, #3A6073, #16222A);
+            border: 3px solid aqua;
+            border-bottom-left-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+            text-align: center;
+            border-top: 0px;
+            gap: 15px;
+            z-index: 2;
+            padding: 45px 30px ;
+            display: none;
+        }
+
+        .menu-label{
+            display: flex;
+            cursor: pointer;
+            align-items: center;
+            justify-content: flex-end;
+            top: 0;
+        }
+
+        .menu-icon{
+            margin: 0;
+            width: 40px;
+        }
+
+        #menu-toggle:checked + .navbar-list{
+            display: flex;
+        }
+
+        .title-product{
+            font-size: 35px;
+        }
+
+        .perfumes{
+            display: grid;
+            grid-template-columns: 243px;
+            gap: 15px;
+
+        }
+
+        .le-beau{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 250px;
+            height: 400px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .le-beau img{
+            width: 205px;
+        }
+
+        .azzaro{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 250px;
+            height: 400px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .azzaro img{
+            width: 205px;
+        }
+
+        .spicebomb{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 250px;
+            height: 400px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .spicebomb img{
+            width: 205px;
+        }
+
+        .ch{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 250px;
+            height: 400px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .ch img{
+            width: 205px;
+        }
+
+        #y-edp{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 250px;
+            height: 400px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        #y-edp img{
+            width: 205px;
+        }
+
+        .hugo-boss{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 250px;
+            height: 400px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .hugo-boss img{
+            width: 205px;
+        }
+
+    }
+
+    @media (max-width:345px){
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style-type: none;
+            font-family: 'Josefin Sans', sans-serif;
+            flex-wrap: wrap;
+        }
+
+        .navbar{
+            flex-wrap: wrap;
+
+        }
+
+        .navbar-list{
+            position: absolute;
+            top: 65px;
+            left: 5%;
+            right: 5%;
+            width: 90%;
+            flex-direction: column;
+            background: #16222A;
+            background: -webkit-linear-gradient(to bottom, #3A6073, #16222A);
+            background: linear-gradient(to bottom, #3A6073, #16222A);
+            border: 3px solid aqua;
+            border-bottom-left-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+            text-align: center;
+            border-top: 0px;
+            gap: 15px;
+            z-index: 2;
+            padding: 45px 30px ;
+            display: none;
+        }
+
+        .menu-label{
+            display: flex;
+            cursor: pointer;
+            align-items: center;
+            justify-content: flex-end;
+            top: 0;
+        }
+
+        .menu-icon{
+            margin: 0;
+            width: 25px;
+        }
+
+        .cart-icon{
+            width: 25px;
+        }
+
+        #menu-toggle:checked + .navbar-list{
+            display: flex;
+        }
+
+        .hero-text h1{
+            min-height: 50px;
+            text-align: left;
+            font-size: 35px;
+        }
+
+        .hero-text{
+            display: flex;
+        }
+
+        .sortBy{
+            grid-template-columns: 120px 120px;
+        }
+
+        #filterA,#filterZ,#filterP,#filterPMinus{
+            font-size: 10px;
+            width: 120px;
+        }
+
+        #products{
+            width: 300px;
+        }
+
+        .title-product{
+            font-size: 25px;
+        }
+
+        .perfumes{
+            display: grid;
+            grid-template-columns: 243px;
+            gap: 15px;
+
+        }
+
+        .le-beau{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 220px;
+            height: 400px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .le-beau img{
+            width: 165px;
+        }
+
+        .azzaro{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 220px;
+            height: 400px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .azzaro img{
+            width: 165px;
+        }
+
+        .spicebomb{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 220px;
+            height: 400px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .spicebomb img{
+            width: 165px;
+        }
+
+        .ch{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 220px;
+            height: 400px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .ch img{
+            width: 165px;
+        }
+
+        #y-edp{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 220px;
+            height: 400px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        #y-edp img{
+            width: 165px;
+        }
+
+        .hugo-boss{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid aqua;
+            border-radius: 0.5rem;
+            width: 220px;
+            height: 400px;
+            padding: 20px;
+            gap: 15px;
+            background-color: #16222A;
+            transition: transform 0.6s;
+            cursor: pointer;
+        }
+
+        .hugo-boss img{
+            width: 165px;
+        }
+
+        #about-us{
+            width: 250px
+        }
+
+        .about-us-text{
+            font-size: medium;
+            display: flex;            
+        }
+
+        footer p{
+            font-size: 20px;
+        }
+    }
+
+
+    @media (max-width:310px){
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style-type: none;
+            font-family: 'Josefin Sans', sans-serif;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .logo-h{
+            width: 150px;
+        }
+
+        .menu-icon{
+            width: 20px;
+            margin: 0;
+        }
+
+        .cart-icon{
+            width: 20px;
+            margin: 0;
+        }
+
+        .perfumes{
+            display:grid;
+        }
+
+        .hero-text h1{
+            min-height: 50px;
+            text-align: left;
+        }
+
+        .hero-text{
+            display: flex;
+            padding-right: 220px;
+        }
+
+        footer p{
+            font-size: 17px;
+        }
+
+        .contacto-title{
+            font-size: 17px;
+        }
+
+        .redes{
+            display: grid;
+            gap: 25px;
+            grid-template-columns: 120px;
+
+        }
+
+        .instagram{
+            width: 120px;
+        }
+
+        .instagram p{
+            font-size: medium;
+        }
+
+        .whatsapp{
+            width: 120px;
+        }
+
+        .whatsapp p{
+            font-size: medium;
+        }
+
+        .localizacion{
+            width: 120px;
+        }
+
+        .localizacion p{
+            font-size: medium;
+        }
+
+        .horarios{
+            width: 120px;
+        }
+
+        .horarios p{
+            font-size: medium;
+        }
+    }
